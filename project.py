@@ -19,8 +19,8 @@ while chances < 5:
 
     if guess > number:
         print('Your Guess was Too High, Guess a Number Lower than',guess)
+        
+chances = chances+1
 
-    chances = chances+1
-
-    if chances > 5:
-        print("Oops Try Again You Failed Dumbo")
+if chances > 5:
+    print("Oops Try Again You Failed Dumbo")
